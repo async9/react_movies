@@ -3,12 +3,7 @@ import "firebase/firestore";
 import "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDsSu3b5UqvCGiRWg4cVfpGJVBVH_RsHL8",
-  authDomain: "react-movies-77c32.firebaseapp.com",
-  projectId: "react-movies-77c32",
-  storageBucket: "react-movies-77c32.appspot.com",
-  messagingSenderId: "176065143277",
-  appId: "1:176065143277:web:c52bbd38d624fd6b4cc7e4",
+//   Secret information :p
 };
 
 // init firebase
