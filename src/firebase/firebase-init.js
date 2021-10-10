@@ -3,7 +3,6 @@ import "firebase/firestore";
 import "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDsSu3b5UqvCGiRWg4cVfpGJVBVH_RsHL8",
   authDomain: "react-movies-77c32.firebaseapp.com",
   projectId: "react-movies-77c32",
   storageBucket: "react-movies-77c32.appspot.com",
