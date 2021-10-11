@@ -1,0 +1,168 @@
+.home {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-bottom: 10rem;
+}
+
+.home__data-list {
+  display: flex;
+  overflow: auto;
+  padding: 2rem 0 3rem 0;
+}
+
+.home__data-list::-webkit-scrollbar {
+  height: 0.8rem;
+}
+.home__data-list::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 10px 0 0 10px;
+}
+.home__data-list::-webkit-scrollbar-thumb {
+  background-color: var(--color-main);
+  border-radius: 10px;
+  outline: none;
+}
+
+.home__movie-list,
+.home__tv-list {
+  position: relative;
+  width: 100%;
+  padding-left: 2rem;
+  height: 525px;
+}
+
+.home .card--home {
+  margin: 0 1rem;
+}
+
+.home__welcome {
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem;
+  margin-bottom: 4rem;
+  position: relative;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.home__welcome-bg,
+.home__bg {
+  background: url(../../assets/bg.jpg) no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.home__welcome-text {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.home__welcome-title {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.home__bg {
+  background: url(../../assets/bg-02.jpg) no-repeat top center/cover;
+}
+
+.home__banner {
+  height: 300px;
+  width: 100%;
+  padding: 5rem;
+  margin: 4rem 0;
+  position: relative;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.home__banner-info {
+  display: flex;
+  align-items: center;
+}
+
+.home__banner-title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.home__banner-title--margin {
+  margin-bottom: 2rem;
+}
+
+.home__banner-profile-link {
+  color: var(--color-main);
+  font-size: 3rem;
+  margin: 0 0.5rem;
+  text-decoration: underline;
+}
+
+.home .search {
+  box-shadow: none;
+}
+
+.home__list-title {
+  font-size: 2.8rem;
+}
+
+/* media queries */
+@media (max-width: 900px) {
+  .home__movie-list,
+  .home__tv-list {
+    height: 410px;
+  }
+}
+
+@media (max-width: 750px) {
+  .home__welcome {
+    padding: 2rem;
+  }
+
+  .home__welcome-title,
+  .home__banner-title {
+    font-size: 2rem;
+  }
+
+  .home__movie-list,
+  .home__tv-list {
+    position: relative;
+    padding-left: 1rem;
+  }
+  
+  .home__banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .home__banner-profile-link {
+    font-size: 2rem;
+  }
+
+  .home__list-title {
+    font-size: 2.2rem;
+  }
+
+  .home__movie-list,
+  .home__tv-list {
+    height: 400px;
+  }
+}
+
+@media (max-width: 320px) {
+  .home__welcome-title,
+  .home__banner-title {
+    font-size: 1.7rem;
+  }
+}

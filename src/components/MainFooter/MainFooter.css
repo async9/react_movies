@@ -1,0 +1,45 @@
+.main-footer {
+  padding: 4rem 0;
+  background-color: var(--color-bg);
+}
+
+.main-footer__container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-footer__logos {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-footer__img-tmdb {
+  height: 20px;
+  width: 240px;
+  background: url(../../assets/mdb-logo.svg) no-repeat center center/cover;
+  margin-bottom: 2rem;
+}
+
+.main-footer__img-firebase {
+  height: 40px;
+  width: 27px;
+  background: url(../../assets/firebase.png) no-repeat center center/cover;
+  margin-bottom: 2rem;
+}
+
+.logo-react {
+  font-size: 4rem;
+  color: var(--color-main);
+  margin-bottom: 2rem;
+}
+
+.main-footer__text {
+  font-size: 1.4rem;
+  color: #fff;
+}
