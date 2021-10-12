@@ -141,14 +141,6 @@
   background-color: #222;
 }
 
-.card-details__icon-fave-container:hover {
-  background-color: var(--color-main);
-}
-
-.card-details__icon-fave-container:hover .icon-fave {
-  color: var(--color-main);
-}
-
 .card-details .icon-fave {
   font-size: 1.5rem;
   position: static;
