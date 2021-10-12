@@ -17,6 +17,7 @@
 
 @media (max-width: 540px) {
   .scroll-btn {
-    right: 5px;
+    right: 10px;
+    bottom: 10ox;
   }
 }
