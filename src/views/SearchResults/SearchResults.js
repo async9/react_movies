@@ -13,7 +13,7 @@ const SearchResults = () => {
   const [searchValue, setSearchValue] = useState(searchId);
   const [searchPage, setSearchPage] = useState(1);
 
-  const apiSearch = `https://api.themoviedb.org/3/search/multi?api_key=9794e8bb02ba77223f102a1ab8f4e97d&include_adult=false&query=${searchValue}&page=${searchPage}`;
+  const apiSearch = `https://api.themoviedb.org/3/search/multi?api_key=its-secret&include_adult=false&query=${searchValue}&page=${searchPage}`;
 
   // extracting API data
   const { data, isPending, error, getData } = useData();
