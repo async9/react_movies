@@ -15,11 +15,11 @@ const TvShows = () => {
   const [gearIcon, setGearIcon] = useState(false);
 
   // api urls
-  const apiSearch = `https://api.themoviedb.org/3/search/tv?api_key=9794e8bb02ba77223f102a1ab8f4e97d&include_adult=false&query=${searchValue}&page=${searchPage}`;
-  const apiPopularTv = `https://api.themoviedb.org/3/discover/tv?sort_by=popularity.desc&api_key=9794e8bb02ba77223f102a1ab8f4e97d&include_adult=false&page=${searchPage}`;
-  const apiOnTv = `https://api.themoviedb.org/3/tv/on_the_air?api_key=9794e8bb02ba77223f102a1ab8f4e97d&include_adult=false&language=en-US&page=${searchPage}`;
-  const apiTopRatedTv = `https://api.themoviedb.org/3/tv/top_rated?api_key=9794e8bb02ba77223f102a1ab8f4e97d&include_adult=false&language=en-US&page=${searchPage}`;
-  const apiTvDiscover = `https://api.themoviedb.org/3/discover/tv?api_key=9794e8bb02ba77223f102a1ab8f4e97d&include_adult=false&with_genres=${tagId}&language=en-US&include_adult=false&page=${searchPage}`;
+  const apiSearch = `https://api.themoviedb.org/3/search/tv?api_key=its-secret&include_adult=false&query=${searchValue}&page=${searchPage}`;
+  const apiPopularTv = `https://api.themoviedb.org/3/discover/tv?sort_by=popularity.desc&api_key=its-secret&include_adult=false&page=${searchPage}`;
+  const apiOnTv = `https://api.themoviedb.org/3/tv/on_the_air?api_key=its-secret&include_adult=false&language=en-US&page=${searchPage}`;
+  const apiTopRatedTv = `https://api.themoviedb.org/3/tv/top_rated?api_key=its-secret&include_adult=false&language=en-US&page=${searchPage}`;
+  const apiTvDiscover = `https://api.themoviedb.org/3/discover/tv?api_key=its-secret&include_adult=false&with_genres=${tagId}&language=en-US&include_adult=false&page=${searchPage}`;
 
   // extracting API data
   const { data, isPending, error, getData } = useData();
