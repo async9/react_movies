@@ -14,8 +14,8 @@ const Home = () => {
   const userId = authCtx.userData.localId;
 
   // api urls
-  const apiTheaterMovies = `https://api.themoviedb.org/3/movie/upcoming?api_key=9794e8bb02ba77223f102a1ab8f4e97d&include_adult=false&language=en-US&page=1`;
-  const apiOnTv = `https://api.themoviedb.org/3/tv/on_the_air?api_key=9794e8bb02ba77223f102a1ab8f4e97d&include_adult=false&language=en-US&page=`;
+  const apiTheaterMovies = `https://api.themoviedb.org/3/movie/upcoming?api_key=its-secret&include_adult=false&language=en-US&page=1`;
+  const apiOnTv = `https://api.themoviedb.org/3/tv/on_the_air?api_key=its-secret&include_adult=false&language=en-US&page=`;
 
   const urls = [apiTheaterMovies, apiOnTv];
 
