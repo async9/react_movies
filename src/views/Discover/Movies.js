@@ -15,11 +15,11 @@ const Movies = () => {
   const [gearIcon, setGearIcon] = useState(false);
 
   // api urls
-  const apiSearch = `https://api.themoviedb.org/3/search/movie?api_key=9794e8bb02ba77223f102a1ab8f4e97d&include_adult=false&query=${searchValue}&page=${searchPage}`;
-  const apiPopularMovies = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=9794e8bb02ba77223f102a1ab8f4e97d&include_adult=false&page=${searchPage}`;
-  const apiUpcomingMovies = `https://api.themoviedb.org/3/movie/upcoming?api_key=9794e8bb02ba77223f102a1ab8f4e97d&include_adult=false&language=en-US&page=${searchPage}`;
-  const apiTopRatedMovies = `https://api.themoviedb.org/3/movie/top_rated?api_key=9794e8bb02ba77223f102a1ab8f4e97d&include_adult=false&language=en-US&page=${searchPage}`;
-  const apiMovieDiscover = `https://api.themoviedb.org/3/discover/movie?api_key=9794e8bb02ba77223f102a1ab8f4e97d&include_adult=false&with_genres=${tagId}&language=en-US&include_adult=false&page=${searchPage}`;
+  const apiSearch = `https://api.themoviedb.org/3/search/movie?api_key=its-secret&include_adult=false&query=${searchValue}&page=${searchPage}`;
+  const apiPopularMovies = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=its-secret&include_adult=false&page=${searchPage}`;
+  const apiUpcomingMovies = `https://api.themoviedb.org/3/movie/upcoming?api_key=its-secret&include_adult=false&language=en-US&page=${searchPage}`;
+  const apiTopRatedMovies = `https://api.themoviedb.org/3/movie/top_rated?api_key=its-secret&include_adult=false&language=en-US&page=${searchPage}`;
+  const apiMovieDiscover = `https://api.themoviedb.org/3/discover/movie?api_key=its-secret&include_adult=false&with_genres=${tagId}&language=en-US&include_adult=false&page=${searchPage}`;
 
   // extracting API data
   const { data, isPending, error, getData } = useData();
