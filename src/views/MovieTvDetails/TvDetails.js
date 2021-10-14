@@ -13,8 +13,8 @@ const TvDetails = () => {
   const { itemId } = useParams();
 
   // api urls
-  const apiTvDetails = `https://api.themoviedb.org/3/tv/${itemId}?api_key=9794e8bb02ba77223f102a1ab8f4e97d&language=en-US`;
-  const apiTvCredits = `https://api.themoviedb.org/3/tv/${itemId}/credits?api_key=9794e8bb02ba77223f102a1ab8f4e97d&language=en-US`;
+  const apiTvDetails = `https://api.themoviedb.org/3/tv/${itemId}?api_key=its-secret&language=en-US`;
+  const apiTvCredits = `https://api.themoviedb.org/3/tv/${itemId}/credits?api_key=its-secret&language=en-US`;
   const apiImgPath = "https://image.tmdb.org/t/p/original";
 
   // get data
