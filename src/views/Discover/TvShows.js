@@ -46,7 +46,7 @@ const TvShows = () => {
         setSearchValue("");
         setGearIcon(false);
         break;
-      case "on_tv":
+      case "upcoming":
         getData(apiOnTv);
         setTagId("");
         setSearchValue("");
@@ -68,6 +68,7 @@ const TvShows = () => {
         setTagId("");
         setGearIcon(false);
         break;
+      default:
     }
   };
 
@@ -95,26 +96,26 @@ const TvShows = () => {
             gearIcon ? "discover__aside--active" : ""
           }`}
         >
-          <form className="filter">
-            <label className="filter__title">Sort results by</label>
+          <form className="discover__filter">
+            <label className="discover__filter-title">Sort results by</label>
             <select
               onChange={(e) => {
                 setSort(e.target.value);
               }}
               value={sort}
-              className="filter__select"
+              className="discover__filter-select"
             >
-              <option value="popular" className="filter__option">
+              <option value="popular" className="discover__filter-option">
                 Popular
               </option>
-              <option value="upcoming" className="filter__option">
+              <option value="upcoming" className="discover__filter-option">
                 Upcoming
               </option>
-              <option value="top_rated" className="filter__option">
+              <option value="top_rated" className="discover__filter-option">
                 Top rated
               </option>
               {tagId && (
-                <option value="genres" className="filter__option">
+                <option value="genres" className="discover__filter-option">
                   Genres
                 </option>
               )}
