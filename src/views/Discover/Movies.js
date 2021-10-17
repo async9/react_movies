@@ -68,6 +68,7 @@ const Movies = () => {
         setTagId("");
         setGearIcon(false);
         break;
+      default:
     }
   };
 
