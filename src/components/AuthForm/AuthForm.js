@@ -83,10 +83,10 @@ const AuthForm = () => {
 
     if (isLogin) {
       url =
-        "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDsSu3b5UqvCGiRWg4cVfpGJVBVH_RsHL8";
+        "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=API_KEY";
     } else {
       url =
-        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyDsSu3b5UqvCGiRWg4cVfpGJVBVH_RsHL8";
+        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=API_KEY";
     }
 
     // fetch data
